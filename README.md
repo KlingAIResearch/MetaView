@@ -140,10 +140,11 @@ Download the following model weights and place them in `models/`:
 
 | Model | Usage | Download |
 |-------|-------|---------|
+| **MetaView** | Pretrained checkpoint | [MetaView](#) |
 | **DA3-GIANT-1.1** | 3D feature extraction | [Depth-Anything-3-GIANT](https://huggingface.co/depth-anything/DA3-GIANT-1.1) |
 | **DA3NESTED-GIANT-LARGE-1.1** | Dense depth estimation | [Depth-Anything-3-NESTED](https://huggingface.co/depth-anything/DA3NESTED-GIANT-LARGE-1.1) |
 | **Qwen-Image-Edit** | Base DiT model (auto-downloaded) | [Qwen/Qwen-Image-Edit](https://huggingface.co/Qwen/Qwen-Image-Edit) |
-| **UFM-Refine** | Evaluation dependency (auto-downloaded) | [infinity1096/UFM-Refine](https://huggingface.co/infinity1096/UFM-Refine) |
+<!-- | **UFM-Refine** | Evaluation dependency (auto-downloaded) | [infinity1096/UFM-Refine](https://huggingface.co/infinity1096/UFM-Refine) | -->
 ### Recommended Directory Layout
 
 ```
