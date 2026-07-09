@@ -24,13 +24,13 @@
     <small><sup>†</sup> Corresponding author</small>
 </div>
 
-<!-- <div align="center">
+<div align="center">
   <p>
-    <a href="https://arxiv.org/abs/2606.31089" target="_blank"><img src="https://img.shields.io/badge/arXiv-MetaView-red" alt="arXiv link"></a>&nbsp;
-    <a href="https://csbowei.github.io/ART/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
-    <a href="https://huggingface.co/csbowei/ART" target="_blank"><img src="https://img.shields.io/badge/🤗 Hugging Face-Models-blue" alt="HF Models"></a>&nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/arXiv-MetaView-red" alt="arXiv link"></a>&nbsp;
+    <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/🤗 Hugging Face-Models-blue" alt="HF Models"></a>&nbsp;
   </p>
-</div> -->
+</div>
 
 
 Official implementation for the paper "**MetaView**: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors".
