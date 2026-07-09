@@ -41,7 +41,7 @@
   <p style="font-size: 1.1em; margin: 0.2em 0;">
     <a href="https://openreview.net/profile?id=%7EYufei_Cai1" target="_blank">Yufei Cai<sup>1</sup></a>&emsp;
     <a href="https://nxsedson.github.io/" target="_blank">Xuesong Niu<sup>2*</sup></a>&emsp;
-    <a href="https://openreview.net/profile?id=~Hao_LU8" target="_blank">Hao Lu<sup>3</sup></a>&emsp;
+    <a href="https://lupaopao.github.io/" target="_blank">Hao Lu<sup>3</sup></a>&emsp;
     <a href="https://openreview.net/profile?id=~Kun_Gai1" target="_blank">Kun Gai<sup>2</sup></a>&emsp;
     <a href="https://openreview.net/profile?id=~Kai_Wu7" target="_blank">Kai Wu<sup>2†</sup></a>&emsp;
     <a href="https://guosheng.github.io/" target="_blank">Guosheng Lin<sup>1†</sup></a>
@@ -60,7 +60,7 @@
   </p>
 
   <p style="margin: 0.8em 0;">
-    <a href="#" target="_blank"><img src="https://img.shields.io/badge/arXiv-MetaView-red" alt="arXiv link"></a>&nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=UniVideo&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
     <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <a href="#" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
   </p>
