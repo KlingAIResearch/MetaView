@@ -1,11 +1,11 @@
 <div align='center'>
 <h1 align="center">[ECCV 2026] MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors</h1>
-    Yufei Cai<sup> 1</sup>&emsp;
-    Xuesong Niu</a><sup> 2*</sup>&emsp;
-    Hao Lu<sup> 3</sup>&emsp;
-    Kun Gai<sup> 2</sup>&emsp;
-    Kai Wu<sup> 2†</sup>&emsp;
-    Guosheng Lin</a><sup> 1†</sup>&emsp;
+    <a href='https://openreview.net/profile?id=%7EYufei_Cai1' target='_blank'>Yufei Cai<sup> 1</sup>&emsp;
+    <a href='https://nxsedson.github.io/' target='_blank'>Xuesong Niu</a><sup> 2*</sup>&emsp;
+    <a href='https://openreview.net/profile?id=~Hao_LU8' target='_blank'>Hao Lu<sup> 3</sup>&emsp;
+    <a href='https://openreview.net/profile?id=~Kun_Gai1' target='_blank'>Kun Gai<sup> 2</sup>&emsp;
+    <a href='https://openreview.net/profile?id=~Kai_Wu7' target='_blank'>Kai Wu<sup> 2†</sup>&emsp;
+    <a href='https://guosheng.github.io/' target='_blank'>Guosheng Lin</a><sup> 1†</sup>&emsp;
 </div>
 
 
