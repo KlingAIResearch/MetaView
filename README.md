@@ -1,11 +1,11 @@
-<div align='center'>
+<!-- <div align='center'>
 <h1 align="center">[ECCV 2026] MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors</h1>
     <a href='https://openreview.net/profile?id=%7EYufei_Cai1' target='_blank'>Yufei Cai<sup> 1</sup>&emsp;
-    <a href='https://nxsedson.github.io/' target='_blank'>Xuesong Niu</a><sup> 2*</sup>&emsp;
+    <a href='https://nxsedson.github.io/' target='_blank'>Xuesong Niu<sup> 2*</sup>&emsp;
     <a href='https://openreview.net/profile?id=~Hao_LU8' target='_blank'>Hao Lu<sup> 3</sup>&emsp;
     <a href='https://openreview.net/profile?id=~Kun_Gai1' target='_blank'>Kun Gai<sup> 2</sup>&emsp;
     <a href='https://openreview.net/profile?id=~Kai_Wu7' target='_blank'>Kai Wu<sup> 2†</sup>&emsp;
-    <a href='https://guosheng.github.io/' target='_blank'>Guosheng Lin</a><sup> 1†</sup>&emsp;
+    <a href='https://guosheng.github.io/' target='_blank'>Guosheng Lin<sup> 1†</sup>&emsp;
 </div>
 
 
@@ -30,10 +30,46 @@
     <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <a href="#" target="_blank"><img src="https://img.shields.io/badge/🤗 Hugging Face-Models-blue" alt="HF Models"></a>&nbsp;
   </p>
+</div> -->
+
+<div align="center">
+
+  <h1 style="margin-bottom: 0.2em;">
+    [ECCV 2026] MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors
+  </h1>
+
+  <p style="font-size: 1.1em; margin: 0.2em 0;">
+    <a href="https://openreview.net/profile?id=%7EYufei_Cai1" target="_blank">Yufei Cai<sup>1</sup></a>&emsp;
+    <a href="https://nxsedson.github.io/" target="_blank">Xuesong Niu<sup>2*</sup></a>&emsp;
+    <a href="https://openreview.net/profile?id=~Hao_LU8" target="_blank">Hao Lu<sup>3</sup></a>&emsp;
+    <a href="https://openreview.net/profile?id=~Kun_Gai1" target="_blank">Kun Gai<sup>2</sup></a>&emsp;
+    <a href="https://openreview.net/profile?id=~Kai_Wu7" target="_blank">Kai Wu<sup>2†</sup></a>&emsp;
+    <a href="https://guosheng.github.io/" target="_blank">Guosheng Lin<sup>1†</sup></a>
+  </p>
+
+  <p style="font-size: 0.95em; margin: 0.2em 0;">
+    <sup>1</sup> Nanyang Technological University &nbsp;·&nbsp;
+    <sup>2</sup> Kuaishou Technology &nbsp;·&nbsp;
+  </p>
+  <p style="font-size: 0.95em; margin: 0.2em 0;">
+    <sup>3</sup> The Hong Kong University of Science and Technology (Guangzhou)
+  </p>
+
+  <p style="font-size: 0.85em; margin: 0.2em 0;">
+    <sup>*</sup> Project lead &nbsp;&nbsp; <sup>†</sup> Corresponding author
+  </p>
+
+  <p style="margin: 0.8em 0;">
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/arXiv-MetaView-red" alt="arXiv link"></a>&nbsp;
+    <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
+  </p>
+
 </div>
 
 
-Official implementation for the paper "**MetaView**: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors".
+
+<!-- Official implementation for the paper "**MetaView**: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors". -->
 
 ## Overview
 
