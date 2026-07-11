@@ -60,9 +60,9 @@
   </p>
 
   <p style="margin: 0.8em 0;">
-    <a href="#" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=UniVideo&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
+    <a href="#" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=MetaView&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
     <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
-    <a href="#" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
+    <a href="https://huggingface.co/Kwai-Kolors/MetaView" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
   </p>
 
 </div>
