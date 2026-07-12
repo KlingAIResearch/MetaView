@@ -65,6 +65,9 @@
     <a href="https://huggingface.co/Kwai-Kolors/MetaView" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
   </p>
 
+  <p align="center">
+    <img src="./assets/static/teaser.png" width="800" alt="teaser">
+  </p>
 </div>
 
 
@@ -73,14 +76,20 @@
 
 ## Overview
 
-**MetaView** is a diffusion-based framework for high-fidelity monocular novel view synthesis that enables accurate rendering under large view changes from a single image. 
+**MetaView** is a diffusion-based framework for high-fidelity novel view synthesis that enables accurate rendering under large view changes from a single image. 
 
-Current generative novel view synthesis methods typically rely on restrictive explicit 3D reconstruction pipelines or use fully implicit scene modeling that suffers from scale drifting and poor geometry consistency. MetaView bridges this gap by combining implicit geometry modeling with minimal yet essential explicit 3D cues:
+Current generative novel view synthesis methods typically rely on restrictive explicit 3D reconstruction pipelines to enforce spatial consistency but inherently restrict generalization in large view changes. Morever, recent interactive generative methods suffers from scale drifting and poor geometry consistency. MetaView bridges this gap by combining implicit geometry modeling with minimal yet essential explicit 3D cues:
 
-- **Scale-Aware Implicit Geometry Priors:** We extract hierarchical features and metric depth from a feed-forward geometry perception network (Depth Anything 3). These geometric signals are incorporated into the pretrained MM-DiT backbone (Qwen-Image-Edit) via non-invasive parallel attention layers, regularizing the spatial structure while preserving rich semantic knowledge.
-- **Metric Scale Anchoring via Modified RoPE:** To overcome the scale drifting issue prevalent in fully implicit methods, we encode camera parameters into a modified Rotary Positional Encoding (PRoPE) and allocate an extra subspace for the *z*-axis. This explicitly injects metric scale cues, anchoring the generation to a consistent 3D metric space.
+- **Scale-Aware Implicit Geometry Priors:** We incorporate implicit geometry priors from a feed-forward geometry perception network (Depth Anything 3) to regularize structure without imposing restrictive reconstruction pipelines. These geometric signals are incorporated into the pretrained MM-DiT backbone via non-invasive parallel attention layers.
+
+- **Metric Scale Anchoring via Modified RoPE:** To overcome the scale drifting issue prevalent in fully implicit methods, we allocate an extra subspace for the *z*-axis to anchor the scene scales and it plays with camera pose via PRoPE. This explicitly injects scale cues, anchoring the generation to a consistent 3D metric space.
 
 Given a single input image and a target camera pose, MetaView synthesizes the corresponding novel view with precise camera controllability, strong geometry consistency, and remarkable cross-domain generalization.
+
+<p align="center">
+  <img src="./assets/static/motivation.png" width="800" alt="motivation">
+</p>
+
 ## Environment Setup
 
 ### 1. Inference Environment: `metaview`
@@ -140,7 +149,7 @@ Download the following model weights and place them in `models/`:
 
 | Model | Usage | Download |
 |-------|-------|---------|
-| **MetaView** | Pretrained checkpoint | [MetaView](#) |
+| **MetaView** | Pretrained checkpoint | [MetaView](https://huggingface.co/Kwai-Kolors/MetaView) |
 | **DA3-GIANT-1.1** | 3D feature extraction | [Depth-Anything-3-GIANT](https://huggingface.co/depth-anything/DA3-GIANT-1.1) |
 | **DA3NESTED-GIANT-LARGE-1.1** | Dense depth estimation | [Depth-Anything-3-NESTED](https://huggingface.co/depth-anything/DA3NESTED-GIANT-LARGE-1.1) |
 | **Qwen-Image-Edit** | Base DiT model (auto-downloaded) | [Qwen/Qwen-Image-Edit](https://huggingface.co/Qwen/Qwen-Image-Edit) |
