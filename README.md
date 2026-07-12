@@ -184,7 +184,7 @@ Or run with full CLI arguments:
 
 ```bash
 python src/inference.py \
-    --image_path "./samples/2.png" \
+    --image_path "./assets/data/0.png" \ # Try samples in `assets/data/` to reproduce or specify your input image.
     --ckpt_path "Path/to/MetaView/checkpoint" \
     --da3_giant_path "Path/to/DA3-GIANT/model" \
     --da3_depth_path "Path/to/DA3-NESTED/model" \
