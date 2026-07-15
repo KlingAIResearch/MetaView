@@ -60,7 +60,7 @@
   </p>
 
   <p style="margin: 0.8em 0;">
-    <a href="#" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=MetaView&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
+    <a href="https://arxiv.org/abs/2607.12000" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=MetaView&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
     <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
     <a href="https://huggingface.co/Kwai-Kolors/MetaView" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
   </p>
@@ -252,10 +252,12 @@ The metric script expects input images to be 3-panel stitched images: **[Source 
 
 ```bibtex
 @article{metaview,
-  title={MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors},
-  author={},
-  journal={},
-  year={2026}
+      title={MetaView: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors}, 
+      author={Yufei Cai and Xuesong Niu and Hao Lu and Kun Gai and Kai Wu and Guosheng Lin},
+      year={2026},
+      eprint={2607.12000},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2607.12000}, 
 }
 ```
 
