@@ -62,6 +62,7 @@
   <p style="margin: 0.8em 0;">
     <a href="https://arxiv.org/abs/2607.12000" target="_blank"><img src="https://img.shields.io/static/v1?label=Arxiv&message=MetaView&color=red&logo=arxiv" alt="arXiv link"></a>&nbsp;
     <a href="https://prototypenx.github.io/MetaView/" target="_blank"><img src="https://img.shields.io/badge/Project-Homepage-green" alt="project homepage"></a>&nbsp;
+    <a href="https://huggingface.co/spaces/hugging-apps/metaview-lightning" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-%20Demo-blue" alt="HF Demo"></a>
     <a href="https://huggingface.co/Kwai-Kolors/MetaView" target="_blank"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-Models-blue" alt="HF Models"></a>
   </p>
 
@@ -71,8 +72,12 @@
 </div>
 
 
+## Demo
+🚀🚀 **Interactive Demo**: Try our [demo](https://huggingface.co/spaces/hugging-apps/metaview) in the Huggingface Spaces!
 
-<!-- Official implementation for the paper "**MetaView**: Monocular Novel View Synthesis with Scale-Aware Implicit Geometry Priors". -->
+⚡️⚡️ **Fast Inference**: Try [8-step distilled lightning demo](https://huggingface.co/spaces/hugging-apps/metaview-lightning) built with an 8-step distilled lightning model for fast inference!
+
+🤗🤗 **Acknowledgement**: Special thanks to [Apolinario](https://github.com/apolinario) and the Huggingface open-source team for their support and help with this project!
 
 ## Overview
 
