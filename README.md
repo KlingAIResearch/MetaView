@@ -49,7 +49,7 @@
 
   <p style="font-size: 0.95em; margin: 0.2em 0;">
     <sup>1</sup> Nanyang Technological University &nbsp;·&nbsp;
-    <sup>2</sup> Kuaishou Technology &nbsp;·&nbsp;
+    <sup>2</sup> KlingAI Research &nbsp;·&nbsp;
   </p>
   <p style="font-size: 0.95em; margin: 0.2em 0;">
     <sup>3</sup> The Hong Kong University of Science and Technology (Guangzhou)
